@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
+
+body{
+    background-color: #222;
+}
+header{
+    background-color:black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.w50{
+    width:50%;
+    padding:0 10px;
+}
+
+.menu{
+    font-size: 30px;
+    text-align: right;
+}
+.banner > h2{
+    font-size: xx-large;
+}
+.bt{
+    font-size: 100px;
+    width: 100%;
+    min-height: 500px;
+    text-align: center;
+    color: white; 
+    padding-top: 200px;
+}
+
+.banner{
+    width:100%;
+    min-height: 500px;
+    background-image: url(image/background.png);
+    background-repeat: repeat;
+    text-align: center;
+    padding:90px 0;
+    color:white;
+}
+
+.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding:20px 0;
+}
+
+.w33{
+    width:33.3%;
+    padding:0 10px;
+    border: 5px black solid;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+}
+
+
+@media screen and (max-width: 768px){
+    header{
+        text-align: center;
+    }
+    .menu{
+        text-align: center;
+    }
+    .w33,.w50{
+        width:100%;
+        margin-bottom: 20px;
+    }
+}
